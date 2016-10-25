@@ -719,7 +719,6 @@ $slide_general_addon = apply_filters('revslider_slide_settings_addons', array(),
 							<?php $page_id = RevSliderFunctions::getVal($slideParams, 'page_id',''); ?>
 							<label><?php _e("Pages:",'revslider'); ?></label>
 							<?php
-							
 							 $args = array('post_type'=> 'page','post_status'=> 'publish',);
                              $posts_array = get_pages( $args );
 							?>
